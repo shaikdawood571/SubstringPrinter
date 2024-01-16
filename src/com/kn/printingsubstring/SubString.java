@@ -6,7 +6,9 @@ public class SubString {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
+		System.out.println("Enter the String = ");
 		String string = scan.next();
+		System.out.println("Enter the break point = ");
 		int length = scan.nextInt();
 
 		for (int i = 0; i < string.length() - 1; i++) {
